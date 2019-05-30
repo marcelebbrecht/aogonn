@@ -1,3 +1,8 @@
+<!-- 
+aogonn - readme
+copyright by Marcel Ebbrecht, 2019 <marcel.ebbrecht@googlemail.com>
+-->
+
 # AOGONN
 Approach On Genetically Optimized Neural Networks
 
