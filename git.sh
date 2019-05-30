@@ -10,7 +10,7 @@ if [[ $1 =~ [a-z] ]]; then
     echo
     echo "Commit message: $1 - commit?"
     read
-    cat aogonn.cfg > aogonn.sample
+    cat config/aogonn.cfg > config/aogonn.sample
     chmod -R o-rwx .
     git add *
     git commit -a -m "$1"
