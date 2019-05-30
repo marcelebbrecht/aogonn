@@ -8,6 +8,8 @@ LANG=C
 ### execution ###
 if [[ $1 =~ [a-z] ]]; then
     echo
+    echo "Please make sure, you checked the code with cpplint.sh before checkin"
+    echo
     echo "Commit message: $1 - commit?"
     read
     cat config/aogonn.cfg > config/aogonn.sample

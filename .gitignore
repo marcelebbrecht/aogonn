@@ -41,7 +41,12 @@ config/*.cfg
 # Logfiles
 logs/*.log
 
+# Tempstuff
+tmp/*
+
 # Other stuff
+CMakeFiles/*
 CMakeCache.txt
 cmake_install.cmake
 Makefile
+
