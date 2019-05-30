@@ -32,4 +32,5 @@
 *.app
 
 # Configurations
+config/*.cfg
 *.cfg
