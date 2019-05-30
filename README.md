@@ -54,3 +54,10 @@ stuff. A few days ago, I found OpenNN and some completely other circumstances br
 
 ## The Goal
 Porting my existing Node/Perl/Bash stuff to a neutral toolkit with C++. We'll see :)
+
+# How to build
+* Simple, you need make, cmake, g++ and gcc
+* Run cmake . in base directory
+* Run make
+* Create valid configurations from samples in config directory
+* Have fun

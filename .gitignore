@@ -1,3 +1,6 @@
+# Main program
+aogonn
+
 # Prerequisites
 *.d
 
@@ -34,3 +37,11 @@
 # Configurations
 config/*.cfg
 *.cfg
+
+# Logfiles
+logs/*.log
+
+# Other stuff
+CMakeCache.txt
+cmake_install.cmake
+Makefile
