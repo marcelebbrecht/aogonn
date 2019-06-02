@@ -16,8 +16,10 @@ for FILE in $FILES; do
     while [[ $REPEAT =~ "r" ]]; do
         cpplint $FILE
         echo
-        echo "Please check file $FILE for warnings and errors, press 'r' to repeat"
-        echo "check, or 'c' to abort, followed by enter. To check next file just enter"
+        echo "Please check file $FILE for warnings and \
+            errors, press 'r' to repeat"
+        echo "check, or 'c' to abort, followed by enter. \
+            To check next file just enter"
         echo
         read REPEAT
         if [[ $REPEAT =~ "c" ]]; then

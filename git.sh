@@ -5,6 +5,11 @@
 ### preamble ###
 LANG=C
 
+### variables ###
+CONFIGREPLACESTRING="receiver sender server user pass port apiserver apiuser \
+    apitoken apitype"
+CONFIGREPLACE="tls count"
+
 ### execution ###
 if [[ $1 =~ [a-z] ]]; then
     echo
@@ -12,7 +17,19 @@ if [[ $1 =~ [a-z] ]]; then
     echo
     echo "Commit message: $1 - commit?"
     read
+
+    # clean configs
     cat config/aogonn.cfg > config/aogonn.sample
+    for CR in $CONFIGREPLACESTRING; do
+        sed -i "s/ $CR:.*/ $CR: \"$(echo $CR | tr a-z A-Z)\";/g" \
+            config/aogonn.sample
+    done
+    for CR in $CONFIGREPLACE; do
+        sed -i "s/ $CR:.*/ $CR: $(echo $CR | tr a-z A-Z);/g" \
+            config/aogonn.sample
+    done
+
+    # chmod and git checkin
     chmod -R o-rwx .
     git add *
     git commit -a -m "$1"

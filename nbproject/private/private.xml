@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project-private xmlns="http://www.netbeans.org/ns/project-private/1">
+    <code-assistance-data xmlns="http://www.netbeans.org/ns/make-project-private/1">
+        <code-model-enabled>true</code-model-enabled>
+    </code-assistance-data>
+    <data xmlns="http://www.netbeans.org/ns/make-project-private/1">
+        <activeConfTypeElem>0</activeConfTypeElem>
+        <activeConfIndexElem>0</activeConfIndexElem>
+    </data>
+    <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
+    <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
+        <group>
+            <file>file:/run/user/1000/gvfs/sftp:host=deepthought.fundm.one,port=666,user=gekko/home/gekko/aogonn/include/base/system.h</file>
+            <file>file:/run/user/1000/gvfs/sftp:host=deepthought.fundm.one,port=666,user=gekko/home/gekko/aogonn/include/data/database.h</file>
+            <file>file:/run/user/1000/gvfs/sftp:host=deepthought.fundm.one,port=666,user=gekko/home/gekko/aogonn/aogonn.cpp</file>
+            <file>file:/run/user/1000/gvfs/sftp:host=deepthought.fundm.one,port=666,user=gekko/home/gekko/aogonn/README.md</file>
+            <file>file:/run/user/1000/gvfs/sftp:host=deepthought.fundm.one,port=666,user=gekko/home/gekko/aogonn/include/messages/program.h</file>
+            <file>file:/run/user/1000/gvfs/sftp:host=deepthought.fundm.one,port=666,user=gekko/home/gekko/aogonn/include/base/settings.h</file>
+            <file>file:/run/user/1000/gvfs/sftp:host=deepthought.fundm.one,port=666,user=gekko/home/gekko/aogonn/.gitignore</file>
+            <file>file:/run/user/1000/gvfs/sftp:host=deepthought.fundm.one,port=666,user=gekko/home/gekko/aogonn/include/base/constants.h</file>
+            <file>file:/run/user/1000/gvfs/sftp:host=deepthought.fundm.one,port=666,user=gekko/home/gekko/aogonn/TODO.md</file>
+            <file>file:/run/user/1000/gvfs/sftp:host=deepthought.fundm.one,port=666,user=gekko/home/gekko/aogonn/src/base/system.cpp</file>
+            <file>file:/run/user/1000/gvfs/sftp:host=deepthought.fundm.one,port=666,user=gekko/home/gekko/aogonn/src/base/settings.cpp</file>
+            <file>file:/run/user/1000/gvfs/sftp:host=deepthought.fundm.one,port=666,user=gekko/home/gekko/aogonn/src/data/database.cpp</file>
+        </group>
+    </open-files>
+</project-private>

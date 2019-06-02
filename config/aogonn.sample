@@ -2,5 +2,38 @@
 # copyright by Marcel Ebbrecht, 2019 <marcel.ebbrecht@googlemail.com>
 
 # general settings
+general:
+{
+};
 
-# database settings
+# email settings
+email:
+{
+    receiver: "RECEIVER";
+    sender: "SENDER";
+    server: "SERVER";
+    user: "USER";
+    pass: "PASS";
+    port: "PORT";
+    tls: TLS;
+};
+
+# provider settings
+provider:
+{
+    apiserver: "APISERVER";
+    apiuser: "APIUSER";
+    apitoken: "APITOKEN";
+    apitype: "APITYPE";
+};
+
+# datasource settings
+datasource:
+{
+};
+
+# drone settings
+drones:
+{
+    count: COUNT;
+};
